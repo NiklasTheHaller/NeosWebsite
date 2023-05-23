@@ -1,0 +1,7 @@
+'InsuraneScan.Site:Document.Page':
+  superTypes:
+    'InsuraneScan.Site:Document.AbstractPage': true
+  ui:
+    label: i18n
+    icon: file-o
+    position: 100

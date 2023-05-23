@@ -1,0 +1,9 @@
+prototype(InsuraneScan.Site:Component.Layout.Default) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <InsuraneScan.Site:Component.Header />
+        {props.content}
+        <InsuraneScan.Site:Component.Footer />
+    `
+}
